@@ -10,10 +10,10 @@ export function Hero() {
       {/* Background Image with Parallax Effect */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/bg header.jpg"
+          src="/bg-header.jpg"
           alt="Motocross rider performing aerial jump"
           fill
-          className="object-cover object-center"
+          className="object-cover md:object-top object-center"
           priority
         />
         {/* Overlay for better text readability */}
