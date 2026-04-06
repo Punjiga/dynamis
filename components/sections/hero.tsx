@@ -13,7 +13,7 @@ export function Hero() {
           src="/images/hero-rider.jpg"
           alt="Motocross rider performing aerial jump"
           fill
-          className="object-cover"
+          className="object-cover object-top"
           priority
         />
         {/* Overlay for better text readability */}
