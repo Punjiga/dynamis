@@ -26,13 +26,13 @@ export function Hero() {
         <motion.div
           initial={{ scaleX: 0 }}
           animate={{ scaleX: 1 }}
-          transition={{ duration: 1, delay: 1 }}
+          transition={{ duration: 1, delay: 3.8 }}
           className="absolute top-32 left-8 md:left-16 w-24 md:w-40 h-1 bg-primary origin-left"
         />
         <motion.div
           initial={{ scaleY: 0 }}
           animate={{ scaleY: 1 }}
-          transition={{ duration: 1, delay: 1.2 }}
+          transition={{ duration: 1, delay: 4.0 }}
           className="absolute top-32 left-8 md:left-16 w-1 h-24 md:h-40 bg-primary origin-top"
         />
 
@@ -40,13 +40,13 @@ export function Hero() {
         <motion.div
           initial={{ scaleX: 0 }}
           animate={{ scaleX: 1 }}
-          transition={{ duration: 1, delay: 1.4 }}
+          transition={{ duration: 1, delay: 4.2 }}
           className="absolute bottom-32 right-8 md:right-16 w-24 md:w-40 h-1 bg-primary origin-right"
         />
         <motion.div
           initial={{ scaleY: 0 }}
           animate={{ scaleY: 1 }}
-          transition={{ duration: 1, delay: 1.6 }}
+          transition={{ duration: 1, delay: 4.4 }}
           className="absolute bottom-32 right-8 md:right-16 w-1 h-24 md:h-40 bg-primary origin-bottom"
         />
 
@@ -68,7 +68,7 @@ export function Hero() {
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.2 }}
+          transition={{ duration: 0.8, delay: 3.0 }}
         >
           {/* Main Title with Display Font */}
           <h1 className="font-display text-8xl md:text-[10rem] lg:text-[14rem] tracking-wider text-foreground mb-4 leading-none">
@@ -79,14 +79,14 @@ export function Hero() {
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.5 }}
+          transition={{ duration: 0.8, delay: 3.3 }}
         >
           {/* Decorative line */}
           <div className="flex items-center justify-center gap-4 mb-6">
             <motion.span
               initial={{ scaleX: 0 }}
               animate={{ scaleX: 1 }}
-              transition={{ duration: 0.6, delay: 0.8 }}
+              transition={{ duration: 0.6, delay: 3.6 }}
               className="w-12 md:w-20 h-0.5 bg-primary origin-right"
             />
             <span className="text-primary font-bold text-sm tracking-[0.3em] uppercase">
@@ -95,7 +95,7 @@ export function Hero() {
             <motion.span
               initial={{ scaleX: 0 }}
               animate={{ scaleX: 1 }}
-              transition={{ duration: 0.6, delay: 0.8 }}
+              transition={{ duration: 0.6, delay: 3.6 }}
               className="w-12 md:w-20 h-0.5 bg-primary origin-left"
             />
           </div>
@@ -108,7 +108,7 @@ export function Hero() {
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ duration: 0.8, delay: 1.2 }}
+          transition={{ duration: 0.8, delay: 4.0 }}
           className="mt-16"
         >
           <motion.div

@@ -119,7 +119,12 @@
   * {
     @apply border-border outline-ring/50;
   }
+  html {
+    @apply h-full antialiased scroll-smooth;
+    background-color: var(--background);
+  }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground min-h-full flex flex-col;
+    background-color: var(--background);
   }
 }
